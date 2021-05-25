@@ -3,7 +3,7 @@ $verde__acua: rgb(0, 200, 0);
 $verde__bgs:rgb(0, 255, 0);       
 
 .card {
-    color: rgb(0, 255, 0)
+    color: rgb(0, 255, 0);
   }
   
 //   .card__item--tm:hover {
@@ -33,7 +33,7 @@ $verde__bgs:rgb(0, 255, 0);
       height: 100%;
       width: 100%;
  }
-
+}
 
   @each $carta in tm, acua, bgs {
     .card__item--#{$carta} {
