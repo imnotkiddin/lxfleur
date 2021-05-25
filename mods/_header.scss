@@ -1,0 +1,31 @@
+.tituloPagina {
+    display: inline-block;
+    background-color: #73e600;
+    width: 140px;
+    position: relative;
+    left: 30px;
+    font-size: 3em;
+    padding: 20px;
+  }
+  
+  body,
+  title,
+  head {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    height: 100vh;
+  }
+  
+  
+  
+  
+  
+  .redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 10px;
+  }

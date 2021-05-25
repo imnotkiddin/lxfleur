@@ -1,0 +1,58 @@
+$verde__tm: rgb(0, 150, 0);
+
+img,
+.obra1,
+.obra2,
+.obra3,
+.obra4,
+.obra5,
+.obra6,
+.obra7,
+.obra8,
+.obra9 {
+  height: 100%;
+  width: 100%;
+}
+
+.container__descripcion--tm{
+  color: $verde__tm;
+}
+.container__descripcion--acua{
+  color: $verde__tm;
+}
+
+.obra1 {
+  grid-area: obra1;
+}
+
+.obra2 {
+  grid-area: obra2;
+}
+
+.obra3 {
+  grid-area: obra3;
+}
+
+.obra4 {
+  grid-area: obra4;
+}
+
+.obra5 {
+  grid-area: obra5;
+}
+
+.obra6 {
+  grid-area: obra6;
+}
+
+.obra7 {
+  grid-area: obra7;
+}
+
+.obra8 {
+  grid-area: obra8;
+}
+
+.obra9 {
+  grid-area: obra9;
+}

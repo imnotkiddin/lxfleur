@@ -1,0 +1,44 @@
+$verde__tm: rgb(0, 150, 0);
+$verde__acua: rgb(0, 200, 0);
+$verde__bgs:rgb(0, 255, 0);       
+
+.card {
+    color: rgb(0, 255, 0)
+  }
+  
+//   .card__item--tm:hover {
+//     border: 1px solid $verde__tm;
+//   }
+//   .card__item--acua:hover {
+//     border: 1px solid $verde__acua;
+//   }
+//   .card__item--bgs:hover{
+//    border: 1px solid $verde__bgs;
+// }
+  // img,
+  // .obra1,
+  // .obra2,
+  // .obra3,
+  // .obra4,
+  // .obra5,
+  // .obra6,
+  // .obra7,
+  // .obra8,
+  // .obra9 {
+  //   height: 100%;
+  //   width: 100%;
+  // }
+  @each $obra in obra1, obra2, obra3, obra4, obra5, obra6, obra7, obra8, obra9 {
+    .#{$obra} {
+      height: 100%;
+      width: 100%;
+ }
+
+
+  @each $carta in tm, acua, bgs {
+    .card__item--#{$carta} {
+      border: 1px solid $verde__#{$carta};
+    }
+ }
+
+ 

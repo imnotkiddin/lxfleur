@@ -1,0 +1,96 @@
+$verde__tm: rgb(0, 150, 0);
+
+.menuInicio {
+  position: static;
+  display: inline-block;
+  font-size: 4em;
+  padding: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  overflow: hidden;
+  grid-area: menu;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
+}
+@for $in from 1 through 7 {
+  .bucle-#{$in}:hover{
+  //background-color: lighten($base-color, $in * 10%);
+  background-color: lighten($verde__tm, $in * 7%);
+  }
+}
+
+#paginaPrincipal:hover,
+#paginaPrincipal:active {
+
+  -webkit-transform: skewY(2deg);
+          transform: skewY(2deg);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: black;
+}
+
+#acuarelas:hover,
+#acuarelas:active {
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#collage:hover,
+#collage:active {
+  -webkit-transform: skewY(2deg);
+          transform: skewY(2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#tecnicamixta:hover,
+#tecnicamixta:active {
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#backgrounds:hover,
+#backgrounds:active {
+  -webkit-transform: skewY(2deg);
+          transform: skewY(2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#exhibiciones:hover,
+#exhibiciones:active {
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: black;
+}
+
+#microrelatos:hover,
+#microrelatos:active {
+  -webkit-transform: skewY(2deg);
+          transform: skewY(2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#contacto:hover,
+#contacto:active {
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+
+}

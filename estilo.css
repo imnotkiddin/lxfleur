@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0 auto;
+  font-size: 100%;
+  width: auto;
+  height: auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+.tituloPagina {
+  display: inline-block;
+  background-color: #73e600;
+  width: 140px;
+  position: relative;
+  left: 30px;
+  font-size: 3em;
+  padding: 20px;
+}
+
+body,
+title,
+head {
+  font-family: 'Abel', sans-serif;
+  position: relative;
+  height: 100vh;
+}
+
+.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.menuInicio {
+  position: static;
+  display: inline-block;
+  font-size: 4em;
+  padding: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  overflow: hidden;
+  grid-area: menu;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
+}
+
+.bucle-1:hover {
+  background-color: #00ba00;
+}
+
+.bucle-2:hover {
+  background-color: #00dd00;
+}
+
+.bucle-3:hover {
+  background-color: #02ff02;
+}
+
+.bucle-4:hover {
+  background-color: #26ff26;
+}
+
+.bucle-5:hover {
+  background-color: #4aff4a;
+}
+
+.bucle-6:hover {
+  background-color: #6dff6d;
+}
+
+.bucle-7:hover {
+  background-color: #91ff91;
+}
+
+#paginaPrincipal:hover,
+#paginaPrincipal:active {
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: black;
+}
+
+#acuarelas:hover,
+#acuarelas:active {
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#collage:hover,
+#collage:active {
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#tecnicamixta:hover,
+#tecnicamixta:active {
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#backgrounds:hover,
+#backgrounds:active {
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#exhibiciones:hover,
+#exhibiciones:active {
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: black;
+}
+
+#microrelatos:hover,
+#microrelatos:active {
+  -webkit-transform: skewY(2deg);
+  transform: skewY(2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+#contacto:hover,
+#contacto:active {
+  -webkit-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+}
+
+.card {
+  display: inline-block;
+  color: lime;
+}
+
+.card__item--tm:hover {
+  border: 1px solid #009600;
+}
+
+.card__item--acua:hover {
+  border: 1px solid #00c800;
+}
+
+.card__item--bgs:hover {
+  border: 1px solid lime;
+}
+
+img,
+.obra1,
+.obra2,
+.obra3,
+.obra4,
+.obra5,
+.obra6,
+.obra7,
+.obra8,
+.obra9 {
+  height: 100%;
+  width: 100%;
+}
+
+img,
+.obra1,
+.obra2,
+.obra3,
+.obra4,
+.obra5,
+.obra6,
+.obra7,
+.obra8,
+.obra9 {
+  height: 100%;
+  width: 100%;
+}
+
+.container__descripcion--tm {
+  color: #009600;
+}
+
+.container__descripcion--acua {
+  color: #009600;
+}
+
+.obra1 {
+  grid-area: obra1;
+}
+
+.obra2 {
+  grid-area: obra2;
+}
+
+.obra3 {
+  grid-area: obra3;
+}
+
+.obra4 {
+  grid-area: obra4;
+}
+
+.obra5 {
+  grid-area: obra5;
+}
+
+.obra6 {
+  grid-area: obra6;
+}
+
+.obra7 {
+  grid-area: obra7;
+}
+
+.obra8 {
+  grid-area: obra8;
+}
+
+.obra9 {
+  grid-area: obra9;
+}
+
+.loopFondo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.descripcionLxfleur {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  margin: 10px;
+  background-color: rgba(0, 255, 0, 0.9);
+}
+
+footer {
+  padding: 12px;
+  text-align: left;
+  color: #4CAF50;
+}
+/*# sourceMappingURL=estilo.css.map */
