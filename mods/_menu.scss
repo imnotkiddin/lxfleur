@@ -14,10 +14,10 @@ $verde__tm: rgb(0, 150, 0);
   -webkit-box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
 }
-@for $in from 1 through 7 {
+@for $in from 1 through 8 {
   .bucle-#{$in}:hover{
   //background-color: lighten($base-color, $in * 10%);
-  background-color: lighten($verde__tm, $in * 7%);
+  background-color: lighten($verde__tm, $in * 5%);
   }
 }
 
