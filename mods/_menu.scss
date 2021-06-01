@@ -14,7 +14,12 @@ $verde__tm: rgb(0, 150, 0);
   -webkit-box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 14px -4px rgba(0, 0, 0, 0.75);
 }
+<<<<<<< Updated upstream
 @for $in from 1 through 7 {
+=======
+
+@for $in from 1 through 8 {
+>>>>>>> Stashed changes
   .bucle-#{$in}:hover{
   //background-color: lighten($base-color, $in * 10%);
   background-color: lighten($verde__tm, $in * 7%);
@@ -94,3 +99,18 @@ $verde__tm: rgb(0, 150, 0);
   color: black;
 
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .menuInicio {
+  font-size: 2em;
+}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .menuInicio {
+    font-size: 3em;
+  }
+}
+
