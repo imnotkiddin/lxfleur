@@ -34,11 +34,18 @@ $verde__bgs:rgb(0, 255, 0);
       width: 100%;
  }
 }
+<<<<<<< HEAD
+=======
 
-  @each $carta in tm, acua, bgs {
-    .card__item--#{$carta} {
-      border: 1px solid $verde__#{$carta};
-    }
- }
+$verdes: (
+    tm: rgb(0, 150, 0),
+    acua: rgb(0, 200, 0),
+    bgs: rgb(0, 255, 0),
+);
+>>>>>>> html__cambios
 
- 
+@each $color, $value in $verdes {
+  .card__item--#{$color} {
+      border: 1px solid $value;
+  }
+}

@@ -36,14 +36,14 @@
     <h1 class="tituloPagina">ACUARELAS</h1>
     <div class="grid-container d-flex justify-content-start">
         <nav>
-            <div><a href="../index.html" class="menuInicio" id="paginaPrincipal">Página principal</a></div>
-            <div><a href="acuarelas.html" class="menuInicio" id="acuarelas">Acuarelas</a></div>
-            <div><a href="collage.html" class="menuInicio" id="collage">Collage</a></div>
-            <div><a href="tecnicamixta.html" class="menuInicio" id="tecnicamixta">Técnica mixta</a></div>
-            <div><a href="backgrounds.html" class="menuInicio" id="backgrounds">Backgrounds</a></div>
-            <div><a href="exhibiciones.html" class="menuInicio" id="exhibiciones">Exhibiciones</a></div>
-            <div><a href="microrelatos.html" class="menuInicio" id="microrelatos">Micro relatos</a></div>
-            <div><a class="menuInicio" data-toggle="modal" data-target="#form" id="contacto">Contacto</a></div>
+            <div><a href="../index.html" class="menuInicio bucle-1" id="paginaPrincipal">Página principal</a></div>
+            <div><a href="acuarelas.html" class="menuInicio bucle-2" id="acuarelas">Acuarelas</a></div>
+            <div><a href="collage.html" class="menuInicio bucle-3" id="collage">Collage</a></div>
+            <div><a href="tecnicamixta.html" class="menuInicio bucle-4" id="tecnicamixta">Técnica mixta</a></div>
+            <div><a href="backgrounds.html" class="menuInicio bucle-5" id="backgrounds">Backgrounds</a></div>
+            <div><a href="exhibiciones.html" class="menuInicio bucle-6" id="exhibiciones">Exhibiciones</a></div>
+            <div><a href="microrelatos.html" class="menuInicio bucle-7" id="microrelatos">Micro relatos</a></div>
+            <div><a class="menuInicio bucle-8" data-toggle="modal" data-target="#form" id="contacto" href="#">Contacto</a></div>
         </nav>
         <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -94,8 +94,10 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="card d-flex justify-content-end card__item--acua" style="width: 250px">
+        <div class="container-fluid">
+            <div class="row card-columns">
+                <div class="col-sm">
+            <div class="card card__item--acua" style="width: 250px">
                 <img class="card-img-top obra1" src="imgs/diffenbachia.PNG" alt="Diffenbachia">
                 <div class="card-body container__descripcion--acua">
                     <h4 class="card-title text-center">Diffenbachia</h4>
@@ -103,6 +105,8 @@
                     <a href="imgs/diffenbachia.PNG" class="btn btn-success d-flex justify-content-center">Full Size View</a>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     </div>
 </body>
