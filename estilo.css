@@ -49,18 +49,6 @@
   width: 100%;
 }
 
-.card__item--tm {
-  border: 1px solid #009600;
-}
-
-.card__item--acua {
-  border: 1px solid #00c800;
-}
-
-.card__item--bgs {
-  border: 1px solid lime;
-}
-
 * {
   margin: 0 auto;
   font-size: 100%;
