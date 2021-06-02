@@ -1,5 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.card {
+  color: lime;
+}
+
+.obra1 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra2 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra3 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra4 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra5 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra6 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra7 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra8 {
+  height: 100%;
+  width: 100%;
+}
+
+.obra9 {
+  height: 100%;
+  width: 100%;
+}
+
+.card__item--tm {
+  border: 1px solid #009600;
+}
+
+.card__item--acua {
+  border: 1px solid #00c800;
+}
+
+.card__item--bgs {
+  border: 1px solid lime;
+}
+
 * {
   margin: 0 auto;
   font-size: 100%;
@@ -52,31 +113,35 @@ head {
 }
 
 .bucle-1:hover {
-  background-color: #00ba00;
+  background-color: #00b000;
 }
 
 .bucle-2:hover {
-  background-color: #00dd00;
+  background-color: #00c900;
 }
 
 .bucle-3:hover {
-  background-color: #02ff02;
+  background-color: #00e300;
 }
 
 .bucle-4:hover {
-  background-color: #26ff26;
+  background-color: #00fc00;
 }
 
 .bucle-5:hover {
-  background-color: #4aff4a;
+  background-color: #17ff17;
 }
 
 .bucle-6:hover {
-  background-color: #6dff6d;
+  background-color: #30ff30;
 }
 
 .bucle-7:hover {
-  background-color: #91ff91;
+  background-color: #4aff4a;
+}
+
+.bucle-8:hover {
+  background-color: #63ff63;
 }
 
 #paginaPrincipal:hover,
@@ -151,35 +216,18 @@ head {
   color: black;
 }
 
-.card {
-  display: inline-block;
-  color: lime;
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .menuInicio {
+    font-size: 2em;
+  }
 }
 
-.card__item--tm:hover {
-  border: 1px solid #009600;
-}
-
-.card__item--acua:hover {
-  border: 1px solid #00c800;
-}
-
-.card__item--bgs:hover {
-  border: 1px solid lime;
-}
-
-img,
-.obra1,
-.obra2,
-.obra3,
-.obra4,
-.obra5,
-.obra6,
-.obra7,
-.obra8,
-.obra9 {
-  height: 100%;
-  width: 100%;
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .menuInicio {
+    font-size: 3em;
+  }
 }
 
 img,
