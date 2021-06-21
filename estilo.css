@@ -75,16 +75,6 @@ head {
   height: 100vh;
 }
 
-.redes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  padding: 10px;
-}
-
 .menuInicio {
   position: static;
   display: inline-block;
@@ -294,5 +284,35 @@ footer {
   padding: 12px;
   text-align: left;
   color: #4CAF50;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.9;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 /*# sourceMappingURL=estilo.css.map */
